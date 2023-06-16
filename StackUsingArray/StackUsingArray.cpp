@@ -30,7 +30,14 @@ int push(int element) {
 }
 
 void pop() {
-	if (empty()) // step 2
+	if (empty()) { // step 2
 		cout << "\n Stack is Empty, Cannot pop" << endl;
-	return;
+		return;
+	}
+	cout << "\n The Popped Element is : " << stack_array[top] << endl;
 }
+
+
+
+
+
