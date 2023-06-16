@@ -28,3 +28,9 @@ int push(int element) {
 	cout << element << "ditambahkan(pushed)" << endl;
 	return element;
 }
+
+void pop() {
+	if (empty()) // step 2
+		cout << "\n Stack is Empty, Cannot pop" << endl;
+	return;
+}
