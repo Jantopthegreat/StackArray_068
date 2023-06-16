@@ -14,3 +14,13 @@ public:
 		top = -1;
 	}
 };
+
+int push(int element) {
+	if (top == 4) {
+		cout << "Number of Data exceed the list" << endl;
+		return 0;
+
+	}
+
+
+}
