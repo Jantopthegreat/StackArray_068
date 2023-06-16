@@ -13,7 +13,7 @@ public:
 	StackArray() {
 		top = -1;
 	}
-};
+
 
 int push(int element) {
 	if (top == 4) {
@@ -22,5 +22,9 @@ int push(int element) {
 
 	}
 
-
+	top++;
+	stack_array[top] = element;
+	cout << endl;
+	cout << element << "ditambahkan(pushed)" << endl;
+	return element;
 }
