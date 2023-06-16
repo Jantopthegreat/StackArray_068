@@ -73,7 +73,9 @@ public:
 				case '2':
 					SA.pop();
 					break;
-			
+				case '3':
+					SA.display();
+					break;
 
 
 				 
