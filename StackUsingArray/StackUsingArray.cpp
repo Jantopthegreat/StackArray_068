@@ -53,29 +53,39 @@ public:
 	int main() {
 		StackArray SA;
 
-		while (true){
-				cout << "\nMenu:" << endl;
-				cout << "1. Push" << endl;
-				cout << "2. Pop" << endl;
-				cout << "3. Display" << endl;
-				cout << "4. Exit" << endl;
-				cout << "Masukan Pilihan" << endl;
-				char input;
-				cin >> input;
-				switch (input) {
+		while (true) {
+			cout << "\nMenu:" << endl;
+			cout << "1. Push" << endl;
+			cout << "2. Pop" << endl;
+			cout << "3. Display" << endl;
+			cout << "4. Exit" << endl;
+			cout << "Masukan Pilihan" << endl;
+			char input;
+			cin >> input;
+			switch (input) {
 
-				case '1':
-					int element;
-					cout << "Enter an Element : ";
-					cin >> element;
-					SA.push(element);
-						break; 
-				case '2':
-					SA.pop();
-					break;
-				case '3':
-					SA.display();
-					break;
+			case '1':
+				int element;
+				cout << "Enter an Element : ";
+				cin >> element;
+				SA.push(element);
+				break;
+
+			case '2':
+				SA.pop();
+				break;
+
+			case '3':
+				SA.display();
+				break;
+
+			case '4':
+				return 0;
+			
+			}
+		}
+	}
+				
 
 
 				 
