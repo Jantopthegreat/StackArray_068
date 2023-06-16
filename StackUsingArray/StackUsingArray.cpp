@@ -70,7 +70,10 @@ public:
 					cin >> element;
 					SA.push(element);
 						break; 
-				
+				case '2':
+					SA.pop();
+					break;
+			
 
 
 				 
