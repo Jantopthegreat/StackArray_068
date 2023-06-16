@@ -62,7 +62,7 @@ public:
 				cout << "Masukan Pilihan" << endl;
 				char input;
 				cin >> input;
-
+				 
 
 				
 		}
