@@ -62,6 +62,17 @@ public:
 				cout << "Masukan Pilihan" << endl;
 				char input;
 				cin >> input;
+				switch (input) {
+
+				case '1':
+					int element;
+					cout << "Enter an Element : ";
+					cin >> element;
+					SA.push(element);
+						break; 
+				
+
+
 				 
 
 				
