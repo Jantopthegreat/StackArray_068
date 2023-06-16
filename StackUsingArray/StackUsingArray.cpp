@@ -50,7 +50,30 @@ public:
 			}
 		}
 	}
+	int main() {
+		StackArray SA;
 
+		while (true){
+				cout << "\nMenu:" << endl;
+				cout << "1. Push" << endl;
+				cout << "2. Pop" << endl;
+				cout << "3. Display" << endl;
+				cout << "4. Exit" << endl;
+				cout << "Masukan Pilihan" << endl;
+				char input;
+				cin >> input;
+
+
+				
+		}
+	}
+}
+
+
+
+
+
+	
 	
 	
 
